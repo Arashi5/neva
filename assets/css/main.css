@@ -6,6 +6,8 @@
 
 body {
     font-family: Oswald, serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header-top {
@@ -23,9 +25,22 @@ body {
     margin-left: 156px;
     margin-right: 268px;
 }
+
+.left-block .price-top span {
+    position: relative;
+    bottom: 15px;
+}
+
+.left-block .mark-top span {
+    position: relative;
+    bottom: 15px;
+}
+
 .right-block {
     display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-right: 140px;
+    margin-left: auto;
 }
 .price-top {
     margin-right: 38px;
@@ -37,6 +52,12 @@ body {
 .logo-top {
     margin-right: 110px;
 }
-.email-top {
+.email-top a {
     margin-right: 37px;
+    text-decoration: none;
+    color: #ffff;
+}
+.phone-top a {
+    text-decoration: none;
+    color: #ffff;
 }
