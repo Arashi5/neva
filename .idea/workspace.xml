@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d3ae23-7bdc-402a-ba6a-691403281023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -59,7 +58,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591419312981</updated>
-      <workItem from="1591419316593" duration="4713000" />
+      <workItem from="1591419316593" duration="5108000" />
+      <workItem from="1592118872724" duration="4935000" />
     </task>
     <servers />
   </component>
@@ -71,9 +71,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="544" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1591419338747" />
-    <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591420025465">
+    <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592123579056">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1591420025465" />
+    <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1592123579056" />
   </component>
 </project>
