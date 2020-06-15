@@ -43,8 +43,9 @@
                 easing: "easeOutExpo",
                 delay: 1000
             });
+
             function fadeOut() {
-                emailCopy.innerHTML = '<a id="email_buffer" class="footer-email" data-clipboard-text="info@neva.ru">info@neva.ru</a>';
+                emailCopy.innerHTML = '<a id="email_buffer" class="footer-email fade-out" data-clipboard-text="info@neva.ru">info@neva.ru</a>';
             }
             setTimeout(fadeOut, 3000);
         });

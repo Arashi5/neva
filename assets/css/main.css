@@ -184,3 +184,8 @@ Banner
     display: inline-block;
     line-height: 1em;
 }
+
+.footer-email{
+    color: #ffffff;
+    transition: top 1s ease-out 0.5s;
+}
