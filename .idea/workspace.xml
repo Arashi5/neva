@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9d3ae23-7bdc-402a-ba6a-691403281023" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/lib/clipboard.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
@@ -77,10 +76,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="544" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1591419338747" />
-    <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592123579056">
+    <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592242210758">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1592123579056" />
+    <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1592242210758" />
     <state x="385" y="210" key="run.anything.popup" timestamp="1592135616507">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
