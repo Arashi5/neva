@@ -16,9 +16,9 @@ button {
 
 /*Header menu*/
 .header-top {
-    background-color: #0E2B3C;
+    background-color: #0E183C;
     display: inline-flex;
-    color: #ffffff;
+    color: #DEEBF4;
     font-size: 20px;
     height: 64px;
     position: absolute;
@@ -28,7 +28,7 @@ button {
     margin-top: 10px;
 }
 .link-top a {
-    color: #ffff;
+    color: #DEEBF4;
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ Banner
     margin-top: 6%;
 }
 .main-title {
-    color: #ffff;
+    color: #DEEBF4;
     font-size: 48px;
     width: 484px;
 }
@@ -55,10 +55,12 @@ Banner
     border: transparent;
     border-radius: 12px;
     box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
-    color: #0E2B3C;
+    color: #0E183C;
     cursor: pointer;
     height: 48px;
-    font-size: 20px;
+    font-family: Oswald
+    font-size: 18px;
+    text-transform: uppercase;
     margin-top: 138px;
     outline: none;
     transition: 0.5s ease;
@@ -84,7 +86,7 @@ Banner
     background: #AED2E8;
     box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
     border: transparent;
-    color: #0E2B3C;
+    color: #0E183C;
 }
 /**
 Карточки
@@ -101,7 +103,18 @@ Banner
     margin: 18px;
 }
 .card-text {
+    font-family: Roboto;
     padding: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    left: 5.56%;
+    right: 5.56%;
+    top: 10%;
+    bottom: 10%;
+
 }
 
 
@@ -113,7 +126,7 @@ Banner
 Футер
  */
 .footer-right {
-    background-color: #0E2B3C;
+    background-color: #0E183C;
     color: #ffffff;
     height: 267px;
 }
