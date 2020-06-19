@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="assets/css/lib/bootstrap-grid.min.css">
     <link rel="stylesheet" href="assets/css/lib/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
-    </script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+
+
 </head>
 <body>
 <!-- HEADER-->
@@ -74,48 +79,72 @@
         </div>
     </div>
 </div>
-<!--END-BODY-->
 <br>
 <br>
 <br>
 <br>
 <br>
-<div>
-    <div class="row">
-        <div class="address">
-            <div id="map" style="width: 600px; height: 400px"></div>
-        </div>
-
+<div class="container">
+    <div class="center">
+        <div><img src="assets/images/logo.png"></div>
+        <div><img src="assets/images/logo.png"></div>
+        <div><img src="assets/images/logo.png"></div>
+        <div><img src="assets/images/logo.png"></div>
+        <div><img src="assets/images/logo.png"></div>
+        <div><img src="assets/images/logo.png"></div>
     </div>
 </div>
+<!--Адрес + карта-->
+<div class="block-container">
+        <div class="col-sm-5">
+            <div class="address">
+                <div class="address-text-block">
+                    <ul>
+                        <li>  Офис в Санкт-Петербурге</li>
+
+                          <li> +7 (812) 458-44-06
+
+                           <li>Санкт-Петербург, 192289,<br>
+                        Грузовой проезд д.17</li>
+
+                          <li> info@neva.ru</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div id="map" class="map"></div>
+        </div>
+</div>
+<!--END-BODY-->
 <!--FOOTER-->
 <footer>
-<div class="row">
-    <div class="col-sm"></div>
-    <div class="col-sm-8 footer-right">
-        <div class="row footer-content">
-            <div class="col-sm-3 footer-menu">
-                <ul>
-                    <li><a>Продукция</a></li>
-                    <li><a>Производство</a></li>
-                    <li><a>Прайс-лист</a></li>
-                </ul>
-            </div>
-            <div class="col-sm footer-link">
-                <ul>
-                    <li id="email_copy">
-                        <a id="email_buffer" class="footer-email" data-clipboard-text="info@neva.ru">info@neva.ru</a>
-                    </li>
-                    <li><a href="tel:+78888888888">+7 (888) 888-88-88</a></li>
+    <div class="block-container">
+        <div class="col-sm"></div>
+        <div class="col-sm-8 footer-right">
+            <div class="row footer-content">
+                <div class="col-sm-3 footer-menu">
+                    <ul>
+                        <li><a>Продукция</a></li>
+                        <li><a>Производство</a></li>
+                        <li><a>Прайс-лист</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm footer-link">
+                    <ul>
+                        <li id="email_copy">
+                            <a id="email_buffer" class="footer-email" data-clipboard-text="info@neva.ru">info@neva.ru</a>
+                        </li>
+                        <li><a href="tel:+78888888888">+7 (888) 888-88-88</a></li>
 
-                </ul>
-            </div>
-            <div class="col-sm-5 logo-small">
-                <img src="assets/images/logo-small.png">
+                    </ul>
+                </div>
+                <div class="col-sm-5 logo-small">
+                    <img src="assets/images/logo-small.png">
+                </div>
             </div>
         </div>
     </div>
-</div>
     <script
             src="https://code.jquery.com/jquery-3.5.1.js"
             integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
@@ -125,8 +154,36 @@
     <script src="assets/js/lib/clipboard.min.js"></script>
     <script src="assets/js/lib/anime.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.center').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 3,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+
+    </script>
 </footer>
 <!-- END-FOOTER-->
 </body>
 </html>
-1

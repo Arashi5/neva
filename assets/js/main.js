@@ -1,8 +1,8 @@
 (function () {
     let emailText = document.getElementById('email_buffer');
-    emailText.addEventListener("click", ()=>{
+    emailText.addEventListener("click", () => {
         let clipboard = new ClipboardJS('#email_buffer');
-        clipboard.on('success', function(e) {
+        clipboard.on('success', function () {
 
             let emailCopy = document.getElementById('email_copy');
             emailCopy.innerHTML = '<h1 class="ml11">\n' +
@@ -18,8 +18,8 @@
             anime.timeline({loop: true})
                 .add({
                     targets: '.ml11 .line',
-                    scaleY: [0,1],
-                    opacity: [0.5,1],
+                    scaleY: [0, 1],
+                    opacity: [0.5, 1],
                     easing: "easeOutExpo",
                     duration: 700
                 })
@@ -29,28 +29,29 @@
                     easing: "easeOutExpo",
                     duration: 700,
                     delay: 100
-                }).add({
-                targets: '.ml11 .letter',
-                opacity: [0,1],
-                easing: "easeOutExpo",
-                duration: 300,
-                offset: '-=775',
-                delay: (el, i) => 34 * (i+1)
-            }).add({
-                targets: '.ml11',
-                opacity: 0,
-                duration: 1000,
-                easing: "easeOutExpo",
-                delay: 1000
-            });
+                })
+                .add({
+                    targets: '.ml11 .letter',
+                    opacity: [0, 1],
+                    easing: "easeOutExpo",
+                    duration: 300,
+                    offset: '-=775',
+                    delay: (el, i) => 34 * (i + 1)
+                 })
+                .add({
+                    targets: '.ml11',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: "easeOutExpo",
+                    delay: 1000
+                });
 
             function fadeOut() {
                 emailCopy.innerHTML = '<a id="email_buffer" class="footer-email fade-out" data-clipboard-text="info@neva.ru">info@neva.ru</a>';
             }
+
             setTimeout(fadeOut, 3000);
         });
     });
-
-
 })();
 

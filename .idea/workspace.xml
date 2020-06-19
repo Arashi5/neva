@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,7 @@
       <updated>1591419312981</updated>
       <workItem from="1591419316593" duration="5108000" />
       <workItem from="1592118872724" duration="13057000" />
+      <workItem from="1592394349087" duration="1491000" />
     </task>
     <servers />
   </component>
@@ -75,6 +77,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="544" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1591419338747" />
+    <state x="100" y="85" width="1240" height="775" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1592285935903">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="100" y="85" width="1240" height="775" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1440.813@0.23.1440.813" timestamp="1592285935903" />
     <state x="389" y="126" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1592243317822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

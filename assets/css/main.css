@@ -105,6 +105,10 @@ Banner
 }
 
 
+.block-container {
+    display: flex;
+}
+
 /**
 Футер
  */
@@ -140,17 +144,15 @@ Banner
     background-color: #DEEBF4;
     height: 408px;
     margin-bottom: 64px;
-    width: 756px;
+    margin-left: -14px;
 }
 .map {
-    background-color: yellow;
+    background-image: url(../images/image_6.png);
+    margin-left: -110px;
+    margin-top: 24px;
     height: 360px;
-    margin-top: 22px;
-    margin-left: 714px;
-    margin-right: 0;
-    width: 1236px;
+    margin-right: -13px;
 }
-
 .ml11 {
     font-weight: 700;
     font-size: 28px;
@@ -188,4 +190,15 @@ Banner
 .footer-email{
     color: #ffffff;
     transition: top 1s ease-out 0.5s;
+}
+.address-text-block {
+    margin-top: 84px;
+    margin-right: 160px;
+    float: right;
+}
+
+.address-text-block ul li {
+    font-size: 20px;
+    list-style-type: none;
+    margin-bottom: 24px;
 }
