@@ -125,7 +125,6 @@ Banner
 
 }
 
-
 .block-container {
     display: flex;
 }
@@ -255,7 +254,15 @@ Banner
     align-items: center;
 }
 
-.swiper-slide-img {
+.swiper-slide-img-g {
+    left: 13.04%;
+    right: 13.04%;
+    top: 25.36%;
+    bottom: 25.36%;
+    width: inherit;
+}
+
+.swiper-slide-img-v {
     left: 13.04%;
     right: 13.04%;
     top: 25.36%;
@@ -270,4 +277,37 @@ Banner
     font-size: 48px;
     color: #0E183C;
     line-height: 72px;
+}
+
+.table-head {
+    margin: 8px;
+    width: 264px;
+    height: 72px;
+    background: #4671D5;
+    border-radius: 16px;
+    color:white;
+    font-size: 24px;
+    line-height: 66px;
+    align-items: center;
+    text-align: center;
+}
+.table-item {
+    width: 72px;
+    height: 72px;
+    background: #DEEBF4;
+    border-radius: 16px;
+    font-size: 20px;
+    line-height: 72px;
+    align-items: center;
+    text-align: center;
+    color: #0E183C;
+    margin: 8px;
+}
+
+.tech-params-block {
+    height: 1152px;
+    left: 4px;
+    right: 0px;
+    background: #0E183C;
+    color: white;
 }

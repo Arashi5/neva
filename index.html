@@ -77,11 +77,42 @@
         </div>
     </div>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div class='tech-params-block'>
+
+</div>
+<div class="container">
+    <div class="row gallery-head">
+        <div class="col-lg">
+            <h2>Таблица исполнений</h2>
+            <br>
+            <br>
+            <div class="row">
+                <div class="table-head"><span>Конструктивная высота, мм</span></div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+            </div>
+            <div class="row">
+                <div class="table-head"><span>Масса, (кг)</span></div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+                <div class="table-item">1000</div>
+            </div> 
+        </div>
+    </div>
+</div>
 <div class="container">
     <div class="row gallery-head">
         <div class="col-sm ">
@@ -169,6 +200,8 @@
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: 3,
             spaceBetween: 30,
+            updateOnWindowResize: true,
+            loop: true,
             freeMode: true,
             pagination: {
                 el: '.swiper-pagination',
