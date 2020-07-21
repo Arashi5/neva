@@ -45,6 +45,7 @@ Banner
  */
 .main-banner {
     background-image: url(../images/gidrant.png);
+    background-position: center;
     display: inline-block;
     height: 552px;
     margin-top: 64px;
@@ -100,15 +101,41 @@ Banner
 Карточки
  */
 .banner-info-text {
-    margin-left: 39px;
-    margin-right: 39px;
+    display: flex;
+    flex-direction: row;
+    padding: 70px 0px;
+    justify-content: center;
+    /*
+    margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;*/
 }
 .info-card {
+    /* Auto Layout 
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px;*/
+
+    position: static;
+    width: 290px;
+    height: 140px;
+    left: 0px;
+    top: 70px;
+
     border: 2px solid #AED2E8;
+    box-sizing: border-box;
     box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
     border-radius: 16px;
+    /*
     height: 160px;
     margin: 18px;
+    */
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 30px 20px;
 }
 .card-text {
     font-family: Roboto;
@@ -116,12 +143,24 @@ Banner
     line-height: 19px;
     display: flex;
     align-items: center;
+    color: #0E183C;
 
-    position: absolute;
-    left: 5.56%;
-    right: 5.56%;
-    top: 10%;
-    bottom: 10%;
+    position: static;
+    left: 6.9%;
+    right: 6.9%;
+    top: 21.43%;
+    bottom: 21.43%;
+
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    padding: 30px 20px;
+
+    /* Inside Auto Layout 
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 0px;*/
 
 }
 
