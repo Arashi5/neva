@@ -344,9 +344,82 @@ Banner
 }
 
 .tech-params-block {
-    height: 1152px;
-    left: 4px;
-    right: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 375px;
+
+    position: absolute;
+    width: 1921px;
+    height: 1313px;
+    left: 0px;
+    top: 4607px;
+    
     background: #0E183C;
     color: white;
+}
+/*Производство*/
+
+.proizvodstvo {
+/* Auto Layout 
+display: flex;
+flex-direction: column;*/
+padding: 70px 0px;
+
+position: absolute;
+width: 1170px;
+height: 2384px;
+left: 375px;
+top: 898px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: center;
+margin: 10px 0px;
+}
+.b570x456{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+
+    position: absolute;
+    width: 570px;
+    height: 456px;
+    background: #FFFFFF;
+    
+    }
+.b669x470{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+
+    position: absolute;
+    width: 669px;
+    height: 470px;
+    background: #FFFFFF;
+    }
+.b470x648{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+
+    position: absolute;
+    width: 470px;
+    height: 648px;
+    background: #FFFFFF;
+}
+/* конец производства*/
+
+/* таблица*/
+.table{
+ /* Auto Layout */
+ display: flex;
+ flex-direction: column;
+ padding: 70px 0px;
+
+ position: absolute;
+ width: 1170px;
+ height: 513px;
+ left: 376px;
+ top: 5920px;
 }
