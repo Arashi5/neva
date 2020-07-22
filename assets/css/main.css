@@ -11,7 +11,7 @@ body {
 
 body {
     font-family: Oswald, serif;
-    background: #eee;
+    background: #fff;
     font-size: 14px;
     color: #000;
     margin: 0;
@@ -348,11 +348,11 @@ Banner
     flex-direction: column;
     padding: 70px 375px;
 
-    position: absolute;
+    /*position: absolute;
     width: 1921px;
     height: 1313px;
     left: 0px;
-    top: 4607px;
+    top: 4607px;*/
     
     background: #0E183C;
     color: white;
@@ -365,11 +365,11 @@ display: flex;
 flex-direction: column;*/
 padding: 70px 0px;
 
-position: absolute;
+/*position: absolute;
 width: 1170px;
 height: 2384px;
 left: 375px;
-top: 898px;
+top: 898px;*/
 
 /* Inside Auto Layout */
 flex: none;
@@ -382,9 +382,9 @@ margin: 10px 0px;
     flex-direction: column;
     padding: 70px 0px;
 
-    position: absolute;
+    /*position: absolute;
     width: 570px;
-    height: 456px;
+    height: 456px;*/
     background: #FFFFFF;
     
     }
@@ -393,9 +393,9 @@ margin: 10px 0px;
     flex-direction: column;
     padding: 70px 0px;
 
-    position: absolute;
+    /*position: absolute;
     width: 669px;
-    height: 470px;
+    height: 470px;*/
     background: #FFFFFF;
     }
 .b470x648{
@@ -403,9 +403,9 @@ margin: 10px 0px;
     flex-direction: column;
     padding: 70px 0px;
 
-    position: absolute;
+    /*position: absolute;
     width: 470px;
-    height: 648px;
+    height: 648px;*/
     background: #FFFFFF;
 }
 /* конец производства*/
@@ -417,9 +417,9 @@ margin: 10px 0px;
  flex-direction: column;
  padding: 70px 0px;
 
- position: absolute;
+ /*position: absolute;
  width: 1170px;
  height: 513px;
  left: 376px;
- top: 5920px;
+ top: 5920px;*/
 }
