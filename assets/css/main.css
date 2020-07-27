@@ -104,7 +104,8 @@ Banner
     display: flex;
     flex-direction: row;
     padding: 70px 0px;
-    justify-content: center;
+    justify-content: space-around;
+    overflow: hidden;
     /*
     margin: auto;
     margin-left: 100px;
@@ -395,7 +396,7 @@ right: 47.5px;
 /* Specifications */
 .tech-params-block {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     padding: 70px 375px;
 
     /*position: absolute;
@@ -405,13 +406,17 @@ right: 47.5px;
     top: 4607px;*/
 
     background: #0E183C;
-    color: white;
+    color: #DEEBF4;
 }
 
 .spec {
 display: flex;
 flex-direction: column;
 padding: 35px 0px;
+}
+
+p{
+color: #4671D5;
 }
 /* End Specifications */
 
@@ -422,3 +427,77 @@ padding: 35px 0px;
  flex-direction: column;
  padding: 70px 0px;
 }
+/* End table */
+
+/* Photo */
+.Photo-block {
+display: flex;
+flex-direction: column;
+padding: 70px 0px;
+
+}
+
+.Photo-gallery{
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+padding: 70px 0px;
+
+position: static;
+width: 2370px;
+height: 710px;
+left: 0px;
+top: 140px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: center;
+margin: 0px 0px;
+}
+
+.Photo-g {
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+padding: 120px 70px;
+
+position: static;
+width: 570px;
+height: 570px;
+left: 0px;
+top: 70px;
+
+background: #DEEBF4;
+border-radius: 16px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: center;
+margin: 30px 0px;
+}
+
+.Photo-v {
+/* Auto Layout */
+display: flex;
+flex-direction: column;
+padding: 70px 120px;
+
+position: static;
+width: 570px;
+height: 570px;
+left: 600px;
+top: 70px;
+
+/* 1/светлоголубой */
+background: #DEEBF4;
+border-radius: 16px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: center;
+margin: 30px 0px;
+}
+/* End Photo */
