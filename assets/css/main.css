@@ -50,8 +50,9 @@ Banner
     background-image: url(../images/gidrant.png);
     background-position: center;
     display: inline-block;
-    height: 552px;
-    margin-top: 64px;
+    /* width: 1920px; */
+    height: 600px;
+    /* margin-top: 64px; */
     width: 100%;
 }
 
@@ -66,7 +67,7 @@ Banner
 }
 
 .button-calc-price {
-    background-color: #AED2E8;
+    /* background-color: #AED2E8;
     border: transparent;
     border-radius: 12px;
     box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
@@ -79,7 +80,29 @@ Banner
     margin-top: 138px;
     outline: none;
     transition: 0.5s ease;
-    width: 320px;
+    width: 320px; */
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    cursor: pointer;
+    
+    /* Button 1 */
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0E183C;
+    margin: 30px 0px;
+
+    background: #AED2E8;
+    box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
+    border-radius: 16px;
 }
 
 .button-calc-price:hover {
@@ -122,16 +145,11 @@ Banner
 }
 
 .info-card {
-    /* Auto Layout 
-    display: flex;
-    flex-direction: row;
-    padding: 30px 20px;*/
-
-    position: static;
+    /* position: static; */
     width: 290px;
     height: 140px;
-    left: 0px;
-    top: 70px;
+    /* left: 0px;
+    top: 70px; */
 
     border: 2px solid #AED2E8;
     box-sizing: border-box;
@@ -145,23 +163,26 @@ Banner
     /* Inside Auto Layout */
     flex: none;
     order: 0;
-    align-self: center;
+    flex-direction: row;
+    /* align-self: center;
+    align-items: center; */
     margin: 30px 20px;
 }
 
 .card-text {
     font-family: Roboto;
-    padding: 16px;
+    /* padding: 16px; */
     line-height: 19px;
     display: flex;
-    align-items: center;
+    align-self: center;
+    text-align: center;
     color: #0E183C;
 
-    position: static;
+    /* position: static;
     left: 6.9%;
     right: 6.9%;
     top: 21.43%;
-    bottom: 21.43%;
+    bottom: 21.43%; */
 
     /* Auto Layout */
     display: flex;
@@ -497,8 +518,8 @@ font-weight: normal;
 font-size: 24px;
 line-height: 36px;
 display: flex;
-align-items: flex-start;
-text-align: flex-start;
+align-items: flex-end;
+/* text-align: flex-start; */
 
 /* 1/темно-синий */
 color: #0E183C;
@@ -514,6 +535,80 @@ margin: 30px 0px; */
   display: flex;
   flex-direction: column;
   padding: 70px 95px;
+}
+
+.input-field{
+display: flex;
+flex-direction: column;
+padding: 20px 30px;
+background: #FFFFFF;
+border: 2px solid #828886;
+border-radius: 16px;
+
+/* Body 1 */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+color: #828886;
+margin: 10px 0px;
+}
+
+.button-2{
+ display: flex;
+ flex-direction: column;
+ padding: 15px 50px;
+ background: #4671D5;
+ 
+ /* button/спокойное */
+ box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
+ border-radius: 16px;
+ 
+ /* Inside Auto Layout */
+ flex: none;
+ order: 2;
+ align-self: center;
+ margin: 10px 0px;
+
+ /* Button 1 */
+ font-family: Oswald;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 18px;
+ line-height: 27px;
+ 
+ /* identical to box height */
+ display: flex;
+ align-items: center;
+ text-align: center;
+ text-transform: uppercase;
+ color: #DEEBF4;
+}
+
+.button-2:hover {
+    border: transparent;
+    box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+
+.button-2:active {
+    background: #4671D5;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(130, 136, 134, 0.5);
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+
+.button-2:visited {
+    background: #4671D5;
+    box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
+    border: transparent;
+    color: #ffffff;
 }
 /* конец производства*/
 
