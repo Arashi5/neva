@@ -86,7 +86,7 @@ Banner
     flex-direction: column;
     padding: 10px 40px;
     cursor: pointer;
-    
+
     /* Button 1 */
     font-family: Oswald;
     font-style: normal;
@@ -406,7 +406,7 @@ Banner
     /* Inside Auto Layout */
     flex: none;
     align-self: center;
-    }
+}
 
 .title-1 {
     /* H1 */
@@ -426,7 +426,7 @@ Banner
     /* flex: none;
     order: 0;
     align-self: flex-start;*/
-    margin: 30px 0px; 
+    margin: 30px 0px;
 }
 
 .block_1 {
@@ -481,110 +481,149 @@ Banner
     /* order: 1; */
     align-self: flex-start;
     margin: 30px 0px;
-   }
+}
 
 .number {
-width: 70px;
-height: 70px;
+    width: 70px;
+    height: 70px;
 
-/* H1 */
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 71px;
-display: flex;
-align-items: center;
-text-align: center;
+    /* H1 */
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
-/* 1/синий */
-color: #4671D5;
+    /* 1/синий */
+    color: #4671D5;
 
-/* Inside Auto Layout */
-/* flex: none;
+    /* Inside Auto Layout */
+    /* flex: none;
 order: 0;
 align-self: flex-end;
 margin: 30px 0px; */
 }
 
 .text-h3 {
-/* width: 272px;
+    /* width: 272px;
 height: 70px; */
 
-/* H3 */
-font-family: Oswald;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 36px;
-display: flex;
-align-items: flex-end;
-/* text-align: flex-start; */
+    /* H3 */
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: flex-end;
+    /* text-align: flex-start; */
 
-/* 1/темно-синий */
-color: #0E183C;
+    /* 1/темно-синий */
+    color: #0E183C;
 
-/* Inside Auto Layout */
-/* flex: none;
+    /* Inside Auto Layout */
+    /* flex: none;
 order: 1;
 align-self: flex-end;
 margin: 30px 0px; */
 }
 
-.form-consultation{
-  display: flex;
-  flex-direction: column;
-  padding: 70px 95px;
+.form-consultation {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 95px;
 }
 
-.input-field{
-display: flex;
-flex-direction: column;
-padding: 20px 30px;
-background: #FFFFFF;
-border: 2px solid #828886;
-border-radius: 16px;
-
-/* Body 1 */
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-display: flex;
-color: #828886;
-margin: 10px 0px;
+.form_fields{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.button-2{
- display: flex;
- flex-direction: column;
- padding: 15px 50px;
- background: #4671D5;
- 
- /* button/спокойное */
- box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
- border-radius: 16px;
- 
- /* Inside Auto Layout */
- flex: none;
- order: 2;
- align-self: center;
- margin: 10px 0px;
+.input-field {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    background: #FFFFFF;
+    border: 2px solid #828886;
+    border-radius: 16px;
+    color: #828886;
+    /* Body 1 */
+    /* font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;*/
+    margin: 10px 0px;
+}
 
- /* Button 1 */
- font-family: Oswald;
- font-style: normal;
- font-weight: normal;
- font-size: 18px;
- line-height: 27px;
- 
- /* identical to box height */
- display: flex;
- align-items: center;
- text-align: center;
- text-transform: uppercase;
- color: #DEEBF4;
+.form_label {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.form_text{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   color: #828886;
+   flex: none;
+   order: 1;
+   border: 0px
+}
+
+.form_text:focus-visible {
+    color: #0E183C;
+    border: 2px solid #0E183C;
+}
+
+.form_error{
+
+}
+
+.button-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 50px;
+    background: #4671D5;
+
+    /* button/спокойное */
+    box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
+    border-radius: 16px;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    align-self: center;
+    margin: 10px 0px;
+
+    /* Button 1 */
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #DEEBF4;
 }
 
 .button-2:hover {
@@ -610,6 +649,7 @@ margin: 10px 0px;
     border: transparent;
     color: #ffffff;
 }
+
 /* конец производства*/
 
 /* Specifications */

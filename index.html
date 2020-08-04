@@ -273,15 +273,20 @@
                             </div>    
                         </div>
                         <div class="block_1 col-xs-12 col-sm-12 col-md-6 col-xl-6">
-                            <div class="form-consultation">
-                                <div class="input-field">
-                                    <input class="input" name="name" type="text" placeholder="Ваше имя">
-                                </div>    
-                                <div class="input-field">
-                                    <input class="input" name="tel" type="tel" placeholder="+7(999)-999-88-88">
-                                </div>
+                            <form class="form-consultation">
+                                <ul class="form_fields">
+                                <li class="input-field">
+                                    <label class="form_label" for="order-name">ваше имя</label>
+                                    <input class="form_text" name="name" type="text" required id="order-name" placeholder="Ваше имя" minlength="2">
+                                    <!-- <span class="form_error">недостаточно символов</span> -->
+                                </li>    
+                                <li class="input-field">
+                                    <label class="form_label" for="order-phone">номер телефона</label>
+                                    <input class="form_text" name="tel" type="tel" required id="order-phone" placeholder="+7(999)-999-88-88" minlength="11">
+                                    <!-- <span class="form_error">некоректные данные</span> -->
+                                </li>
                                 <div class="button-2">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</div>
-                            </div>
+                            </form>
                         </div>
                         <!-- <div class="block_1 col-xs-12 col-sm-12 col-md-6 col-xl-6">
                             <div class="form-consultation">
