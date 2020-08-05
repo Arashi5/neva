@@ -652,6 +652,98 @@ margin: 30px 0px; */
 
 /* конец производства*/
 
+/*constructions*/
+.constructions{
+    display: flex;
+    flex-direction: column;
+    padding: 65px 0px;
+}
+
+.drawing{
+
+}
+
+.hydrant{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 50px 40px;
+}
+
+.mark1{
+    position: absolute;
+    left: 180px;
+    top: 40px;
+}
+
+.mark2{
+    position: absolute;
+    left: 250px;
+    top: 70px;
+}
+
+.mark3{
+    position: absolute;
+    left: 60px;
+    top: 680px;
+}
+
+.mark4{
+    position: absolute;
+    left: 180px;
+    top: 710px;
+}
+
+.mark5{
+    position: absolute;
+    left: 278px;
+    top: 973px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.informer{
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 15px 0px;
+}
+
+.informer-name{
+    position: static;
+    width: 255px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    color: #4671D5;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 15px 0px;
+}
+
+.informer-text{
+    position: static;
+    width: 255px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0E183C;
+    flex: none;
+    order: 2;
+    align-self: center;
+    margin: 15px 0px;
+}
+/*End constructions*/
+
 /* Specifications */
 .tech-params-block {
     display: flex;
