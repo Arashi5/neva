@@ -502,16 +502,14 @@ Banner
 
     /* Inside Auto Layout */
     /* flex: none;
-order: 0;
-align-self: flex-end;
-margin: 30px 0px; */
+    order: 0;
+    align-self: flex-end;
+    margin: 30px 0px; */
 }
 
 .text-h3 {
     /* width: 272px;
-height: 70px; */
-
-    /* H3 */
+    height: 70px; */
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
@@ -520,15 +518,11 @@ height: 70px; */
     display: flex;
     align-items: flex-end;
     /* text-align: flex-start; */
-
-    /* 1/темно-синий */
     color: #0E183C;
-
-    /* Inside Auto Layout */
     /* flex: none;
-order: 1;
-align-self: flex-end;
-margin: 30px 0px; */
+    order: 1;
+    align-self: flex-end;
+    margin: 30px 0px; */
 }
 
 .form-consultation {
@@ -551,7 +545,6 @@ margin: 30px 0px; */
     border: 2px solid #828886;
     border-radius: 16px;
     color: #828886;
-    /* Body 1 */
     /* font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -760,6 +753,19 @@ margin: 30px 0px; */
     color: #DEEBF4;
 }
 
+.title-2 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: flex-start;
+    color: #fff;
+    margin: 30px 0px;
+}
+
 .spec {
     display: flex;
     flex-direction: column;
@@ -769,12 +775,10 @@ margin: 30px 0px; */
 p {
     color: #4671D5;
 }
-
 /* End Specifications */
 
 /* таблица*/
 .table {
-    /* Auto Layout */
     display: flex;
     flex-direction: column;
     padding: 70px 0px;
@@ -791,7 +795,6 @@ p {
 }
 
 .photo-gallery {
-    /* Auto Layout */
     display: flex;
     flex-direction: row;
     padding: 70px 0px;
