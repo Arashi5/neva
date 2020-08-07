@@ -50,14 +50,12 @@ Banner
     background-image: url(../images/gidrant.png);
     background-position: center;
     display: inline-block;
-    /* width: 1920px; */
     height: 600px;
-    /* margin-top: 64px; */
     width: 100%;
 }
 
 .banner-info {
-    margin-top: 6%;
+    margin-top: 10%;
 }
 
 .main-title {
@@ -135,66 +133,37 @@ Banner
 .banner-info-text {
     display: flex;
     flex-direction: row;
-    padding: 70px 0px;
+    padding: 30px 0px;
     justify-content: space-around;
     overflow: hidden;
-    /*
-    margin: auto;
-    margin-left: 100px;
-    margin-right: 100px;*/
 }
 
 .info-card {
-    /* position: static; */
+    position: static;
     width: 290px;
     height: 140px;
-    /* left: 0px;
-    top: 70px; */
-
     border: 2px solid #AED2E8;
     box-sizing: border-box;
     box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
     border-radius: 16px;
-    /*
-    height: 160px;
-    margin: 18px;
-    */
 
-    /* Inside Auto Layout */
     flex: none;
     order: 0;
     flex-direction: row;
-    /* align-self: center;
-    align-items: center; */
     margin: 30px 20px;
 }
 
 .card-text {
     font-family: Roboto;
-    /* padding: 16px; */
     line-height: 19px;
     display: flex;
     align-self: center;
     text-align: center;
     color: #0E183C;
 
-    /* position: static;
-    left: 6.9%;
-    right: 6.9%;
-    top: 21.43%;
-    bottom: 21.43%; */
-
-    /* Auto Layout */
     display: flex;
     flex-direction: row;
     padding: 30px 20px;
-
-    /* Inside Auto Layout 
-    flex: none;
-    order: 0;
-    align-self: center;
-    margin: 0px 0px;*/
-
 }
 
 .block-container {
@@ -398,18 +367,15 @@ Banner
 /*Производство*/
 
 .proizvodstvo {
-    /* Auto Layout*/
     display: flex;
     flex-direction: column;
-    padding: 65px 0px;
-
-    /* Inside Auto Layout */
+    padding-top: 30;
+    padding-bottom: 65;
     flex: none;
     align-self: center;
 }
 
 .title-1 {
-    /* H1 */
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
@@ -418,49 +384,27 @@ Banner
     display: flex;
     align-items: center;
     text-align: flex-start;
-
-    /* 1/темно-синий */
     color: #0E183C;
-
-    /* Inside Auto Layout */
-    /* flex: none;
-    order: 0;
-    align-self: flex-start;*/
     margin: 30px 0px;
 }
 
 .block_1 {
     display: flex;
     flex-direction: column;
-    padding: 40px;
-
-    /* width: 540px;
-    height: 530px;
-    left: calc(50% - 540px/2 - 285px);
-    top: calc(50% - 530px/2 - 745px); */
+    padding: 30px 40px;
 
 }
 
 .block_2 {
     display: flex;
     flex-direction: column;
-    padding: 40px;
-
-    /* width: 635px;
-    height: 530px;
-    left: 165px;
-    top: 4437px; */
+    padding: 30px 40px;
 }
 
 .block_3 {
     display: flex;
     flex-direction: column;
-    padding: 40px;
-
-    /* width: 445px;
-    height: 670px;
-    left: 165px;
-    top: 4967px; */
+    padding: 30px 40px;
 }
 
 .block-img-1 {
@@ -472,13 +416,10 @@ Banner
     display: flex;
     flex-direction: row;
     padding: 0px;
-
     position: static;
     width: 350px;
     height: 70px;
-
     flex: none;
-    /* order: 1; */
     align-self: flex-start;
     margin: 30px 0px;
 }
