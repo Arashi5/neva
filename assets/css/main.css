@@ -29,9 +29,9 @@ button {
     display: inline-flex;
     color: #DEEBF4;
     font-size: 20px;
-    height: 64px;
-    /* position: absolute; */
+    height: 66px;
     width: 100%;
+    flex-wrap: nowrap;
 }
 
 .link-top {
