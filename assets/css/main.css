@@ -127,6 +127,92 @@ Banner
     color: #0E183C;
 }
 
+/** text*/
+.paragraph{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px;
+}
+.stripes{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    /* margin: 0px 10px; */
+}
+
+.line_1{
+    border-left: 15px solid #4671d5;
+    height: 300px;
+    /* position: static;
+    flex: none;
+    order: 0;
+    align-self: center; */
+}
+
+.line_2{
+    border-left: 40px solid #4671d5;
+    height: 300px;
+    margin-left: 10px;
+    /* position: static;
+    flex: none;
+    order: 0;
+    align-self: center; */
+}
+.text_group{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    flex: none;
+    order: 1;
+    align-self: center;
+}
+.text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0E183C;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 20px 0px;
+}
+
+/* problems*/
+.problems{
+display: flex;
+flex-direction: column;
+padding: 0px 60px;
+}
+
+.points{
+display: flex;
+flex-direction: column;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: center;
+}
+
+.point_1{
+display: flex;
+flex-direction: row;
+padding: 30px;
+align-self: flex-start;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+list-style: square;
+color: #0E183C;
+/* padding-right: 30px; */
+}
 /**
 Карточки
  */
