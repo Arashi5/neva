@@ -23,7 +23,7 @@ button {
     outline: none !important;
 }
 
-/*Header menu*/
+/** Header menu */
 .header-top {
     background-color: #0E183C;
     display: inline-flex;
@@ -43,9 +43,7 @@ button {
     text-decoration: none;
 }
 
-/**
-Banner
- */
+/** Banner */
 .main-banner {
     background-image: url(../images/gidrant.png);
     background-position: center;
@@ -65,27 +63,10 @@ Banner
 }
 
 .button-calc-price {
-    /* background-color: #AED2E8;
-    border: transparent;
-    border-radius: 12px;
-    box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
-    color: #0E183C;
-    cursor: pointer;
-    height: 48px;
-    font-family: Oswald, serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-top: 138px;
-    outline: none;
-    transition: 0.5s ease;
-    width: 320px; */
-
     display: flex;
     flex-direction: column;
     padding: 10px 40px;
     cursor: pointer;
-
-    /* Button 1 */
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
@@ -97,7 +78,6 @@ Banner
     text-transform: uppercase;
     color: #0E183C;
     margin: 30px 0px;
-
     background: #AED2E8;
     box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
     border-radius: 16px;
@@ -137,30 +117,18 @@ Banner
     display: flex;
     flex-direction: row;
     padding: 0px;
-
     flex: none;
     order: 0;
     align-self: center;
-    /* margin: 0px 10px; */
 }
-
 .line_1{
     border-left: 15px solid #4671d5;
     height: 300px;
-    /* position: static;
-    flex: none;
-    order: 0;
-    align-self: center; */
 }
-
 .line_2{
     border-left: 40px solid #4671d5;
     height: 300px;
     margin-left: 10px;
-    /* position: static;
-    flex: none;
-    order: 0;
-    align-self: center; */
 }
 .text_group{
     display: flex;
@@ -179,7 +147,7 @@ Banner
     color: #0E183C;
     flex: none;
     order: 1;
-    align-self: center;
+    align-self: left;
     margin: 20px 0px;
 }
 
@@ -189,7 +157,6 @@ display: flex;
 flex-direction: column;
 padding: 0px 60px;
 }
-
 .points{
 display: flex;
 flex-direction: column;
@@ -198,7 +165,6 @@ flex: none;
 order: 1;
 align-self: center;
 }
-
 .point_1{
 display: flex;
 flex-direction: row;
@@ -211,54 +177,479 @@ font-size: 20px;
 line-height: 23px;
 list-style: square;
 color: #0E183C;
-/* padding-right: 30px; */
 }
-/**
-Карточки
- */
+
+/** advantages */
 .banner-info-text {
     display: flex;
-    flex-direction: row;
-    padding: 30px 0px;
+    flex-direction: column;
+    padding: 60px 0px;
     justify-content: space-around;
     overflow: hidden;
 }
-
+.blokc-card{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    align-self: center;
+}
 .info-card {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
     position: static;
     width: 290px;
     height: 140px;
-    border: 2px solid #AED2E8;
-    box-sizing: border-box;
-    box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
-    border-radius: 16px;
-
+    background: #4671D5;
     flex: none;
-    order: 0;
-    flex-direction: row;
-    margin: 30px 20px;
-}
-
-.card-text {
-    font-family: Roboto;
-    line-height: 19px;
-    display: flex;
     align-self: center;
-    text-align: center;
-    color: #0E183C;
-
+    margin: 0px 40px;
+}
+.card-text {
     display: flex;
     flex-direction: row;
-    padding: 30px 20px;
-}
+    padding: 0px 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    text-align: left;
+    color: #fff;
+    display: flex;
 
+    border-left: 5px solid #fff;
+    height: 120px;
+    margin-left: 20px;
+}
 .block-container {
     display: flex;
 }
+/* end advantages */
 
-/**
-Футер
- */
+/** constructions */
+.constructions {
+    display: flex;
+    flex-direction: column;
+    padding: 65px 0px;
+}
+.drawing {}
+.hydrant {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 50px 40px;
+}
+.mark1 {
+    position: absolute;
+    left: 180px;
+    top: 40px;
+}
+
+.mark2 {
+    position: absolute;
+    left: 250px;
+    top: 70px;
+}
+
+.mark3 {
+    position: absolute;
+    left: 60px;
+    top: 680px;
+}
+
+.mark4 {
+    position: absolute;
+    left: 180px;
+    top: 710px;
+}
+
+.mark5 {
+    position: absolute;
+    left: 278px;
+    top: 973px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.informer {
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 15px 0px;
+}
+
+.informer-name {
+    position: static;
+    width: 255px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+    color: #4671D5;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 15px 0px;
+}
+
+.informer-text {
+    position: static;
+    width: 255px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0E183C;
+    flex: none;
+    order: 2;
+    align-self: center;
+    margin: 15px 0px;
+}
+/*End constructions*/
+
+/** execution table */
+.table {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+}
+
+.table-head {
+    margin: 5px;
+    width: 287px;
+    height: 76px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    background: #0e183c;
+    color: white;
+    font-size: 24px;
+    line-height: 76px;
+    align-items: center;
+    text-align: center;
+}
+
+.table-item {
+    width: 76px;
+    height: 76px;
+    background: #DEEBF4;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 76px;
+    align-items: center;
+    text-align: center;
+    color: #0E183C;
+    margin: 5px;
+}
+
+/* end execution tabl*/
+
+/** Specifications */
+.tech-params-block {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 375px;
+    background: #0E183C;
+    color: #DEEBF4;
+}
+
+.title-2 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: flex-start;
+    color: #fff;
+    margin: 30px 0px;
+}
+
+.title-3 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: flex-start;
+    color: #fff;
+}
+
+.spec {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4671D5;
+}
+
+/* End Specifications */
+
+
+
+/** Производство */
+.proizvodstvo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30;
+    padding-bottom: 65;
+    flex: none;
+    align-self: center;
+}
+.title-1 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: flex-start;
+    color: #0E183C;
+    margin: 30px 0px;
+}
+.block_1 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+
+}
+.block_2 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+}
+.block_3 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+}
+.block-img-1 {
+    left: 100%;
+    right: 100%;
+}
+.name-card {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: static;
+    width: 350px;
+    height: 70px;
+    flex: none;
+    align-self: flex-start;
+    margin: 30px 0px;
+}
+.number {
+    width: 70px;
+    height: 70px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4671D5;
+}
+.text-h3 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: flex-end;
+    color: #0E183C;
+}
+.form-consultation {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 95px;
+}
+.form_fields{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    background: #FFFFFF;
+    border: 2px solid #828886;
+    border-radius: 16px;
+    color: #828886;
+    margin: 10px 0px;
+}
+.form_label {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+.form_text{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   color: #828886;
+   flex: none;
+   order: 1;
+   border: 0px
+}
+.form_text:focus-visible {
+    color: #0E183C;
+    border: 2px solid #0E183C;
+}
+.form_error{
+
+}
+.button-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 50px;
+    background: #4671D5;
+    box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
+    border-radius: 16px;
+    flex: none;
+    order: 2;
+    align-self: center;
+    margin: 10px 0px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #DEEBF4;
+}
+.button-2:hover {
+    border: transparent;
+    box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+.button-2:active {
+    background: #4671D5;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(130, 136, 134, 0.5);
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+.button-2:visited {
+    background: #4671D5;
+    box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
+    border: transparent;
+    color: #ffffff;
+}
+/* конец производства*/
+
+/** Photo */
+.photo-block {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0px;
+
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: row;
+    padding: 70px 0px;
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 30px;
+}
+
+.photo-g {
+    display: flex;
+    flex-direction: row;
+    padding: 120px 70px;
+    width: 570px;
+    height: 570px;
+    background: #DEEBF4;
+    border-radius: 16px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 30px;
+    transition: transform .3s;
+    transform: translateX (80px)
+}
+
+.photo-v {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 120px;
+    width: 570px;
+    height: 570px;
+    background: #DEEBF4;
+    border-radius: 16px;
+    flex: none;
+    order: 1;
+    align-self: center;
+    margin: 30px;
+    transition: transform .3s;
+    transform: translateX (80px)
+}
+/* End Photo */
+
+/** dealers*/
+    .form-dealers{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 95px;
+        background: #0E183C;
+        border-radius: 16px;
+        flex: none;
+        order: 1;
+        align-self: center;
+        }
+/* end dealers*/
+/** Футер */
 .footer-right {
     background-color: #0E183C;
     color: #ffffff;
@@ -366,7 +757,6 @@ color: #0E183C;
     margin-bottom: 24px;
 }
 
-
 .swiper-container {
     width: 100%;
     height: 552px;
@@ -381,20 +771,6 @@ color: #0E183C;
     height: 552px;
     box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
     border-radius: 26px;
-
-    /* Center slide text vertically */
-    /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center; */
 }
 
 .swiper-slide-img-g {
@@ -422,483 +798,3 @@ color: #0E183C;
     color: #0E183C;
     line-height: 72px;
 }
-
-.table-head {
-    margin: 8px;
-    width: 264px;
-    height: 72px;
-    background: #4671D5;
-    border-radius: 16px;
-    color: white;
-    font-size: 24px;
-    line-height: 66px;
-    align-items: center;
-    text-align: center;
-}
-
-.table-item {
-    width: 72px;
-    height: 72px;
-    background: #DEEBF4;
-    border-radius: 16px;
-    font-size: 20px;
-    line-height: 72px;
-    align-items: center;
-    text-align: center;
-    color: #0E183C;
-    margin: 8px;
-}
-
-
-/*Производство*/
-
-.proizvodstvo {
-    display: flex;
-    flex-direction: column;
-    padding-top: 30;
-    padding-bottom: 65;
-    flex: none;
-    align-self: center;
-}
-
-.title-1 {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 71px;
-    display: flex;
-    align-items: center;
-    text-align: flex-start;
-    color: #0E183C;
-    margin: 30px 0px;
-}
-
-.block_1 {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 40px;
-
-}
-
-.block_2 {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 40px;
-}
-
-.block_3 {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 40px;
-}
-
-.block-img-1 {
-    left: 100%;
-    right: 100%;
-}
-
-.name-card {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    position: static;
-    width: 350px;
-    height: 70px;
-    flex: none;
-    align-self: flex-start;
-    margin: 30px 0px;
-}
-
-.number {
-    width: 70px;
-    height: 70px;
-
-    /* H1 */
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 71px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    /* 1/синий */
-    color: #4671D5;
-
-    /* Inside Auto Layout */
-    /* flex: none;
-    order: 0;
-    align-self: flex-end;
-    margin: 30px 0px; */
-}
-
-.text-h3 {
-    /* width: 272px;
-    height: 70px; */
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
-    display: flex;
-    align-items: flex-end;
-    /* text-align: flex-start; */
-    color: #0E183C;
-    /* flex: none;
-    order: 1;
-    align-self: flex-end;
-    margin: 30px 0px; */
-}
-
-.form-consultation {
-    display: flex;
-    flex-direction: column;
-    padding: 70px 95px;
-}
-
-.form_fields{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.input-field {
-    display: flex;
-    flex-direction: column;
-    padding: 15px 15px;
-    background: #FFFFFF;
-    border: 2px solid #828886;
-    border-radius: 16px;
-    color: #828886;
-    /* font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;*/
-    margin: 10px 0px;
-}
-
-.form_label {
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    text-transform: uppercase;
-    color: #fff;
-    
-}
-
-.form_text{
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   line-height: 19px;
-   display: flex;
-   align-items: center;
-   color: #828886;
-   flex: none;
-   order: 1;
-   border: 0px
-}
-
-.form_text:focus-visible {
-    color: #0E183C;
-    border: 2px solid #0E183C;
-}
-
-.form_error{
-
-}
-
-.button-2 {
-    display: flex;
-    flex-direction: column;
-    padding: 15px 50px;
-    background: #4671D5;
-
-    /* button/спокойное */
-    box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
-    border-radius: 16px;
-
-    /* Inside Auto Layout */
-    flex: none;
-    order: 2;
-    align-self: center;
-    margin: 10px 0px;
-
-    /* Button 1 */
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-
-    /* identical to box height */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #DEEBF4;
-}
-
-.button-2:hover {
-    border: transparent;
-    box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
-    color: #ffffff;
-    font-size: 20px;
-    outline: none;
-}
-
-.button-2:active {
-    background: #4671D5;
-    border: transparent;
-    box-shadow: 0px 4px 4px rgba(130, 136, 134, 0.5);
-    color: #ffffff;
-    font-size: 20px;
-    outline: none;
-}
-
-.button-2:visited {
-    background: #4671D5;
-    box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
-    border: transparent;
-    color: #ffffff;
-}
-
-/* конец производства*/
-
-/*constructions*/
-.constructions{
-    display: flex;
-    flex-direction: column;
-    padding: 65px 0px;
-}
-
-.drawing{
-
-}
-
-.hydrant{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    padding: 50px 40px;
-}
-
-.mark1{
-    position: absolute;
-    left: 180px;
-    top: 40px;
-}
-
-.mark2{
-    position: absolute;
-    left: 250px;
-    top: 70px;
-}
-
-.mark3{
-    position: absolute;
-    left: 60px;
-    top: 680px;
-}
-
-.mark4{
-    position: absolute;
-    left: 180px;
-    top: 710px;
-}
-
-.mark5{
-    position: absolute;
-    left: 278px;
-    top: 973px;
-}
-
-.cards{
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-}
-
-.informer{
-    flex: none;
-    order: 0;
-    align-self: center;
-    margin: 15px 0px;
-}
-
-.informer-name{
-    position: static;
-    width: 255px;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 47px;
-    color: #4671D5;
-    flex: none;
-    order: 1;
-    align-self: center;
-    margin: 15px 0px;
-}
-
-.informer-text{
-    position: static;
-    width: 255px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #0E183C;
-    flex: none;
-    order: 2;
-    align-self: center;
-    margin: 15px 0px;
-}
-/*End constructions*/
-
-/* Specifications */
-.tech-params-block {
-    display: flex;
-    flex-direction: column;
-    padding: 70px 375px;
-
-    /*position: absolute;
-    width: 1921px;
-    height: 1313px;
-    left: 0px;
-    top: 4607px;*/
-
-    background: #0E183C;
-    color: #DEEBF4;
-}
-
-.title-2 {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 71px;
-    display: flex;
-    align-items: center;
-    text-align: flex-start;
-    color: #fff;
-    margin: 30px 0px;
-}
-
-.spec {
-    display: flex;
-    flex-direction: column;
-    padding: 35px 0px;
-}
-
-p {
-    color: #4671D5;
-}
-/* End Specifications */
-
-/* таблица*/
-.table {
-    display: flex;
-    flex-direction: column;
-    padding: 70px 0px;
-}
-
-/* End table */
-
-/* Photo */
-.photo-block {
-    display: flex;
-    flex-direction: column;
-    padding: 70px 0px;
-
-}
-
-.photo-gallery {
-    display: flex;
-    flex-direction: row;
-    padding: 70px 0px;
-
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    overflow: hidden;
-    list-style: none;
-    padding: 0;
-    z-index: 1;
-
-    /* transition: transform .3s;
-    transform: translateX (80px) */
-
-    /* position: static;
-    width: 2370px;
-    height: 710px;
-    left: 0px;
-    top: 140px; */
-
-    /* Inside Auto Layout */
-    flex: none;
-    order: 1;
-    align-self: center;
-    margin: 30px;
-}
-
-.photo-g {
-    /* Auto Layout */
-    display: flex;
-    flex-direction: row;
-    padding: 120px 70px;
-
-    /* position: static; */
-    width: 570px;
-    height: 570px;
-    /* left: 0px;
-    top: 70px; */
-
-    background: #DEEBF4;
-    border-radius: 16px;
-
-    /* Inside Auto Layout */
-    flex: none;
-    order: 0;
-    align-self: center;
-    margin: 30px;
-
-    transition: transform .3s;
-    transform: translateX (80px)
-}
-
-.photo-v {
-    /* Auto Layout */
-    display: flex;
-    flex-direction: column;
-    padding: 70px 120px;
-
-    /* position: static; */
-    width: 570px;
-    height: 570px;
-    /* left: 600px;
-    top: 70px; */
-
-    /* 1/светлоголубой */
-    background: #DEEBF4;
-    border-radius: 16px;
-
-    /* Inside Auto Layout */
-    flex: none;
-    order: 1;
-    align-self: center;
-    margin: 30px;
-
-    transition: transform .3s;
-    transform: translateX (80px)
-}
-
-/* End Photo */
