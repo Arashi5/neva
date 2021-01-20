@@ -3,35 +3,35 @@
     src: url(../fonts/Oswald-VariableFont_wght.ttf);
 }
 
-.H1 {
+.Head_1 {
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
     font-size: 48px;
     line-height: 71px;
 }
-.H2 {
+.Head_2 {
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 47px;
 }
-.H3 {
+.Head_3 {
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
 }
-.H4 {
+.Head_4 {
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
 }
-.H5 {
+.Head_5 {
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
@@ -75,10 +75,13 @@
     line-height: 12px;
 }
 
-.темно-синий {
-    #0E183C
-
-}
+.dark-blue {color:#0E183C}
+.green {color:#364B4A}
+.gray-green{color:#828886}
+.very_light_blue{color:#C2D5FF}
+.light_blue{color:AED2E8}
+.blue{color:4671D5}
+.red{color:DC2525}
 
 html,
 body {
