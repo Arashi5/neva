@@ -3,6 +3,87 @@
     src: url(../fonts/Oswald-VariableFont_wght.ttf);
 }
 
+.Head_1 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+}
+.Head_2 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+}
+.Head_3 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+.Head_4 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.Head_5 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+.Body_1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.Body_2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.Button_1{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+.Button_1_hov {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.Overline_1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.dark-blue {color:#0E183C}
+.green {color:#364B4A}
+.gray-green{color:#828886}
+.very_light_blue{color:#C2D5FF}
+.light_blue{color:#AED2E8}
+.blue{color:#4671D5}
+.red{color:#DC2525}
+.white{color: white}
+
 html,
 body {
     position: relative;
@@ -27,11 +108,10 @@ button {
 .header-top {
     background-color: #0E183C;
     display: inline-flex;
-    color: #DEEBF4;
-    font-size: 20px;
     height: 66px;
     width: 100%;
     flex-wrap: nowrap;
+    vertical-align: baseline;
 }
 
 .link-top {
@@ -43,9 +123,22 @@ button {
     text-decoration: none;
 }
 
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+}
+.indent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+}
+
 /** Banner */
 .main-banner {
-    background-image: url(../images/gidrant.png);
+    background-image: url(../images/background.png);
     background-position: center;
     display: inline-block;
     height: 600px;
@@ -53,36 +146,39 @@ button {
 }
 
 .banner-info {
-    margin-top: 10%;
+    /*margin-top: 10%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
 }
 
-.main-title {
-    color: #DEEBF4;
-    font-size: 48px;
-    width: 484px;
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
 }
-
+.line_text{
+    padding: 5px;
+    padding-left: 0px
+;
+}
 .button-calc-price {
     display: flex;
     flex-direction: column;
-    padding: 10px 40px;
+    padding: 10px 20px;
     cursor: pointer;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
     display: flex;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    color: #0E183C;
-    margin: 30px 0px;
     background: #AED2E8;
     box-shadow: 0px 8px 8px rgba(130, 136, 134, 0.5);
     border-radius: 16px;
+    text-decoration: none;
 }
-
 .button-calc-price:hover {
     border: transparent;
     box-shadow: 0px 8px 10px rgba(130, 136, 134, 0.5);
@@ -111,120 +207,117 @@ button {
 .paragraph{
     display: flex;
     flex-direction: row;
-    padding: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
 }
-.stripes{
+.paragraph-decor{
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 0px;
-    flex: none;
-    order: 0;
-    align-self: center;
 }
 .line_1{
-    border-left: 15px solid #4671d5;
-    height: 300px;
+    border-left: 20px solid #4671d5;
+    height: 270px;
 }
 .line_2{
     border-left: 40px solid #4671d5;
-    height: 300px;
-    margin-left: 10px;
+    height: 270px;
+    margin-left: 20px;
 }
-.text_group{
+.paragraph-text{
     display: flex;
     flex-direction: column;
-    padding: 10px 0px;
-    flex: none;
-    order: 1;
-    align-self: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 0px 0px 40px;
 }
 .text{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    color: #0E183C;
     flex: none;
     order: 1;
-    align-self: left;
-    margin: 20px 0px;
+    align-items: flex-start;
+    margin: 10px 0px;
 }
 
 /* problems*/
 .problems{
-display: flex;
-flex-direction: column;
-padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.title-1 {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    padding-bottom: 40px;
+    width: 960px;
 }
 .points{
-display: flex;
-flex-direction: column;
-padding: 0px;
-flex: none;
-order: 1;
-align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 .point_1{
-display: flex;
-flex-direction: row;
-padding: 30px;
-align-self: flex-start;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 23px;
-list-style: square;
-color: #0E183C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+}
+.square{
+    position: static;
+    width: 40px;
+    height: 40px;
+    background: #0E183C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 20px;
 }
 
 /** advantages */
-.banner-info-text {
+.advantages {
     display: flex;
     flex-direction: column;
-    padding: 60px 0px;
-    justify-content: space-around;
+    padding: 40px 0px;
+    justify-content: flex-start;
     overflow: hidden;
 }
 .blokc-card{
     display: flex;
     flex-direction: row;
-    padding: 0px;
-    flex: none;
-    order: 1;
-    align-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
 }
 .info-card {
     display: flex;
     flex-direction: row;
-    padding: 0px;
+    padding: 0;
     position: static;
+    vertical-align: middle;
     width: 290px;
-    height: 140px;
+    height: 160px;
     background: #4671D5;
     flex: none;
     align-self: center;
-    margin: 0px 40px;
 }
 .card-text {
     display: flex;
     flex-direction: row;
-    padding: 0px 20px;
-    font-family: Roboto;
-    font-size: 16px;
-    line-height: 19px;
-    align-self: center;
-    text-align: left;
-    color: #fff;
-    display: flex;
-
+    padding-left: 20px;
+    vertical-align: middle;
+    /*position: static;*/
+    /*left: 15.79%;*/
+    /*right: 7.02%;*/
+    /*top: 14.38%;*/
+    /*bottom: 14.38%;*/
     border-left: 5px solid #fff;
     height: 120px;
-    margin-left: 20px;
-}
-.block-container {
-    display: flex;
+    margin: 20px;
 }
 /* end advantages */
 
@@ -232,14 +325,13 @@ color: #0E183C;
 .constructions {
     display: flex;
     flex-direction: column;
-    padding: 65px 0px;
+    padding: 40px 0px;
 }
 .drawing {}
 .hydrant {
     display: flex;
     flex-direction: column;
     align-self: center;
-    padding: 50px 40px;
 }
 .mark1 {
     position: absolute;
@@ -371,7 +463,6 @@ color: #0E183C;
     line-height: 71px;
     display: flex;
     align-items: center;
-    text-align: flex-start;
     color: #fff;
     margin: 30px 0px;
 }
@@ -384,7 +475,7 @@ color: #0E183C;
     line-height: 71px;
     display: flex;
     align-items: center;
-    text-align: flex-start;
+    text-align: left;
     color: #fff;
 }
 
@@ -411,23 +502,12 @@ p {
 .proizvodstvo {
     display: flex;
     flex-direction: column;
-    padding-top: 30;
-    padding-bottom: 65;
+    padding-top: 30px;
+    padding-bottom: 65px;
     flex: none;
     align-self: center;
 }
-.title-1 {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 71px;
-    display: flex;
-    align-items: center;
-    text-align: flex-start;
-    color: #0E183C;
-    margin: 30px 0px;
-}
+
 .block_1 {
     display: flex;
     flex-direction: column;
@@ -617,7 +697,7 @@ p {
     align-self: center;
     margin: 30px;
     transition: transform .3s;
-    transform: translateX (80px)
+    transform: translateX(80px)
 }
 
 .photo-v {
@@ -633,7 +713,7 @@ p {
     align-self: center;
     margin: 30px;
     transition: transform .3s;
-    transform: translateX (80px)
+    transform: translateX(80px)
 }
 /* End Photo */
 
