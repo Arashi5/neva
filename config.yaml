@@ -1,0 +1,11 @@
+  app:
+    database:
+        host: local
+        port: 3306
+        login: login
+        pass: pass
+    smtp:
+        host: local
+        port: 3306
+        login: login
+        pass: pass
